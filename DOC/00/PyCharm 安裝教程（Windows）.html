@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.runoob.com/w3cnote/pycharm-windows-install.html -->
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+  <meta property="qc:admins" content="465267610762567726375">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PyCharm 安裝教程（Windows） | 菜鳥教程</title>
+
+  <link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="canonical" href="http://www.runoob.com/w3cnote/pycharm-windows-install.html">
+<meta name="keywords" content="PyCharm 安装教程（Windows）">
+<meta name="description" content="PyCharm 是一款功能强大的 Python 编辑器，具有跨平台性，鉴于目前最新版 PyCharm 使用教程较少，为了节约时间，来介绍一下 PyCharm 在 Windows下是如何安装的。  这是 PyCharm 的下载地址：http://www.jetbrains.com/pycharm/download/#section=windows  进入该网站后，我们会看到如下界面:    professional 表示专业版，commu..">
+		
+	<link rel="shortcut icon" href="https://static.runoob.com/images/favicon.ico" mce_href="//static.runoob.com/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./PyCharm 安裝教程（Windows）_files/style.css" type="text/css" media="all">	
+	<link rel="stylesheet" href="./PyCharm 安裝教程（Windows）_files/font-awesome.min.css" media="all">	
+  <!--[if gte IE 9]><!-->
+  <script src="./PyCharm 安裝教程（Windows）_files/hm.js.下載"></script><script src="./PyCharm 安裝教程（Windows）_files/jquery.min.js.下載"></script>
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+     <script src="//cdn.staticfile.org/jquery/1.9.1/jquery.min.js"></script>
+     <script src="//cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <![endif]-->
+  <link rel="apple-touch-icon" href="https://static.runoob.com/images/icon/mobile-icon.png">
+  <meta name="apple-mobile-web-app-title" content="菜鸟教程">
+<link rel="stylesheet" type="text/css" href="./PyCharm 安裝教程（Windows）_files/prettify.css"><link type="text/css" rel="stylesheet" charset="UTF-8" href="./PyCharm 安裝教程（Windows）_files/translateelement.css"></head>
+<body style="">
+
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="https://www.runoob.com/w3cnote/index.php">
+      <input class="placeholder" placeholder="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="https://www.runoob.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">菜鳥教程-- 學的不僅是技術，更是夢想！</font></font></a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="https://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" placeholder="搜索……" autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			
+
+						<ul class="pc-nav" id="note-nav">
+				<li><a href="https://www.runoob.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首頁</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">筆記首頁</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/android" title="Android 基礎入門教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote/es6-tutorial.html" title="ES6 教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6 教程</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote/ten-sorting-algorithm.html" title="排序算法"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">排序算法</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/coderlife" title="程序員人生"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序員人生</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/joke" title="程序員笑話"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序員笑話</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/code" title="編程技術"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">編程技術</font></font></a></li> 
+				<li><a href="javascript:;" class="runoob-pop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登錄</font></font></a></li>
+				
+				<!--
+						<li>
+				<a style="font-weight:bold;" href="https://www.runoob.com/linux/linux-tutorial.html#yunserver" target="_blank" onclick="_hmt.push(['_trackEvent', 'aliyun', 'click', 'aliyun'])" title="kkb">云服务器</a>
+				</li>
+				<li><a href="http://gk.link/a/104mQ" target="_blank" style="font-weight: bold;"onclick="_hmt.push(['_trackEvent', '极客时间', 'click', 'jike'])" title="我的圈子">极客时间</a></li>
+			
+				
+				<li><a target="_blank" href="/shoppinglist" rel="nofollow">知识店铺</a></li> 
+		-->
+			</ul>
+						
+      		
+			<ul class="mobile-nav">
+				<li><a href="https://www.runoob.com/w3cnote"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首頁</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/android" target="_blank" title="Android 基礎入門教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote/es6-tutorial.html" target="_blank" title="ES6 教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6</font></font></a></li>
+				<li><a href="https://www.runoob.com/w3cnote_genre/joke" target="_blank" title="程序員笑話"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">逗樂</font></font></a></li>
+				
+				<a href="javascript:void(0)" class="search-reveal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Search</font></font></a> 
+			</ul>
+			
+		</div>
+	</div>
+</div>
+
+
+<!--  内容  -->
+<div class="container main">
+	<div class="row">
+
+		<div class="col middle-column big-middle-column">
+	 			<div class="article">
+			<div class="article-heading">
+				<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyCharm 安裝教程（Windows）</font></font></h2>				<h3><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分類</font></font></em> <a href="https://www.runoob.com/w3cnote_genre/code" title="編程技術"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">編程技術</font></font></a> </h3>
+			</div>
+			<div class="article-body note-body">
+				<div class="article-intro">
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyCharm 是一款功能強大的Python 編輯器，具有跨平台性，鑑於目前最新版PyCharm 使用教程較少，為了節約時間，來介紹一下PyCharm 在Windows下是如何安裝的。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">這是PyCharm的下載地址：</font></font><a href="http://www.jetbrains.com/pycharm/download/#section=windows" rel="noopener" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.jetbrains.com/pycharm/download/#section=windows</font></font></a></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">進入該網站後，我們會看到如下界面:</font></font></p>
+
+<p><img src="./PyCharm 安裝教程（Windows）_files/1525863037-6053-.png"></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">professional 表示專業版，community 是社區版，推薦安裝社區版，因為是免費使用的。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1、當下載好以後，點擊安裝，記得修改安裝路徑，我這裡放的是E盤，修改好以後，Next</font></font></p>
+
+<p><img src="./PyCharm 安裝教程（Windows）_files/1525863037-5461-.png"></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2、接下來是</font></font></p><p>
+
+<img src="./PyCharm 安裝教程（Windows）_files/1525863037-4708-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+我們可以根據自己的電腦選擇32位還是64位，目前應該基本都是64位系統吧
+</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+3、如下
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-8628-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+點擊Install,然後就是靜靜的等待安裝了。</font><font style="vertical-align: inherit;">如果我們之前沒有下載有Python解釋器的話，在等待安裝的時間我們得去下載python解釋器，不然pycharm只是一副沒有靈魂的驅殼
+</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+4、進入python官方網站：//www.python.org/
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-3244-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+點擊Downloads,進入選擇下載界面
+</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+5、如下所示，選擇我們需要的python版本號，點擊Download
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-6239-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+6、我選擇的是python3.5.1，會看到如下界面
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-6907-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+因為我們需要用到的是Windows下的解釋器，所以在Operating System中可以選擇對應的Windows版本，有64位和32位可以選擇，我選擇的是畫紅線的這個，executable表示可執行版，需要安裝後使用，embeddable表示嵌入版，就是解壓以後就可以使用的版本。
+</font></font></p><p>
+可执行版安装比较简单，一直默认就好了。embeddable需要注意，当我们解压<img src="./PyCharm 安裝教程（Windows）_files/1525863038-5228-.png">这个也是需要解压到同一路径的，这里面放着pip、setuptools等工具，如果不解压，我们将无法在pycharm中更新模块，比如需要用到pymysql，就无法下载。虽然也能用，但是就是"阉割版"的python解释器了。
+</p><p>
+如果是embeddable版，记得把解释器所在的路径添加到环境变量里，不然pycharm无法自动获得解释器位置。
+</p><p>
+7、添加环境变量
+</p><p>
+（1）右键我的电脑，点击属性，弹出如下界面
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-5928-.png">
+</p><p>
+（2）点击高级系统设置，出现下图
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-9558-.png">
+</p><p>
+（3）点击环境变量
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-3430-.png">
+</p><p>
+（4）找到系统变量里面的Path，编辑它，将python解释器所在路径粘贴到最后面，再加个分号。
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863038-1728-.png">
+</p><p>
+环境变量配置结束
+</p><p>
+8、这时候Pycharm也装好了，我们进入该软件。
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-3010-.png">
+</p><p>
+9、点击Create New Project，接下来是重点
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-3037-.png">
+</p><p>
+Location是我们存放工程的路径，点击<img src="./PyCharm 安裝教程（Windows）_files/1525863039-5575-.png">这个三角符号，可以看到pycharm已经自动获取了Python 3.5。
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-5312-.png">
+</p><p>
+点击第一个<img src="./PyCharm 安裝教程（Windows）_files/1525863039-7886-.png">我们可以选择Location的路径，比如
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-8791-.png">
+</p><p>
+记住，我们选择的路径需要为空，不然无法创建，第二个Location不用动它，是自动默认的，其余不用点，然后点击Create。出现如下界面，这是Pycharm在配置环境，静静等待。最后点击close关掉提示就好了。
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-9510-.png">
+</p><p>
+10、建立编译环境
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-4822-.png">
+</p><p>
+右键<img src="./PyCharm 安裝教程（Windows）_files/1525863039-5988-.png">点击New,选择Python File
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863039-8465-.png">
+</p><p>
+给file取个名字，点击OK
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-3009-.png">
+</p><p>
+系统会默认生成hello.py
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-6888-.png">
+</p><p>
+好了，至此，我们的初始工作基本完成。
+</p><p>
+11、我们来编译一下
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-9146-.png">
+</p><p>
+快捷键ctrl+shift+F10或者点击<img src="./PyCharm 安裝教程（Windows）_files/1525863038-3561-.png">绿色三角形,就会编译，编译结果如下
+</p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-6355-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+12、對了，因為我之前已經添加過了，所以可以直接編譯，還有很重要的一步沒說，不然pycharm無法找到解釋器，將無法編譯。
+</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+點擊File,選擇settings,點擊</font></font><img src="./PyCharm 安裝教程（Windows）_files/1525863040-8642-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+添加解釋器
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-9577-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+最後點擊Apply。</font><font style="vertical-align: inherit;">等待系統配置。
+</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+如果我們需要添加新的模塊，點擊綠色+號
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-7805-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+然後直接搜索pymysql
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-2458-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+然後點安裝
+</font></font></p><p>
+<img src="./PyCharm 安裝教程（Windows）_files/1525863040-5220-.png">
+</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+以上就是pycharm的安裝過程以及初始化，還有Python解釋器的安裝配置。</font></font></p>
+
+
+<blockquote><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原文鏈接：https://blog.csdn.net/c_shell_python/article/details/79647627</font></font></p></blockquote>
+
+				</div>
+			</div>
+			<div class="previous-next-links">
+			<div class="previous-design-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">← </font></font><a href="http://www.runoob.com/w3cnote/cpp-construct-function-initial-list.html" rel="prev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++類構造函數初始化列表</font></font></a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/w3cnote/c-swap-data.html" rel="next"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C關於使用異或運算交換兩數的值</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> →</font></font></div>
+			</div>
+						<style>
+@media screen and (max-width: 768px) {
+	#w3cnote-ad728 {
+		display: none;
+	}
+}
+p.note-author {
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+    color: #78a15a;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+</style>
+<script>
+var aid = 19942;
+</script>
+	</div>
+		
+	</div>
+	<div class="listcol last right-column">
+
+
+
+
+<!--
+	<div class="tab tab-light-blue"> 订阅</div>
+	<div class="sidebar-box">
+		<div class="socialicons">
+			<a href="//www.runoob.com/feed" class="rss">RSS 订阅</a>
+		
+			<form action="//list.qq.com/cgi-bin/qf_compose_send" method="post">
+			<input type="hidden" value="qf_booked_feedback" name="t">
+			<input type="hidden" value="4b67b6b6c1f5e792559940cab4aebb8f1126fba880bff1a8" name="id">
+			<input class="placeholder" id="feed_email" name="to" value="输入邮箱 订阅笔记" autocomplete="off">
+			<input type="submit" value="订阅" class="btn btn-primary">
+			</form>
+		
+		</div>
+ 
+	</div>
+-->	
+
+
+
+<!--
+	<div class="sidebar-box cate-list">
+	<div class="sidebar-box recommend-here list-link">
+			<a href="javascript:void(0);" style="font-size: 16px; color:#64854c;font-weight:bold;">笔记列表</a>
+		</div>
+
+ 
+
+</div>
+-->
+
+	 <div class="sidebar-box cate-list">
+		 		
+
+	 	<div class="sidebar-box recommend-here list-link">
+			<a href="javascript:void(0);" style="font-size: 16px; color:#64854c;font-weight:bold;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程列表</font></font></a>
+		</div>
+		
+		<div class="cate-items"> 
+				<a href="http://www.runoob.com/ado" title="ADO，即ActiveX 數據對象（ActiveX Data Objects），是微軟公司提出的應用程序接口，用於訪問關係或非關係數據庫中的數據。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ADO教程</font></font></a>
+	<a href="http://www.runoob.com/ajax" title="Ajax，即Asynchronous JavaScript and XML（異步的JavaScript 和XML），是一項在不重新加載整個頁面的情況下與服務器交換數據並更新部分網頁的技術。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax教程</font></font></a>
+	<a href="http://www.runoob.com/android" title="Android是一種基於Linux的自由及開放源代碼的操作系統，主要使用於移動設備，如智能手機和平板電腦，由Google公司和開放手機聯盟領導及開發。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android教程</font></font></a>
+	<a href="http://www.runoob.com/angularjs2" title="AngularJS 2 是一款開源JavaScript庫，由Google維護，用來協助單一頁面應用程序運行。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular2教程</font></font></a>
+	<a href="http://www.runoob.com/angularjs" title="AngularJS 是Google 開發的純客戶端JavaScript 技術的WEB 框架，用於擴展、增強HTML 功能，它專為構建強大的WEB 應用而設計。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS教程</font></font></a>
+	<a href="http://www.runoob.com/appml" title="AppML 是一個為Web 應用程序設計的HTML 擴展框架。 AppML 結合了最新的技術和現代Web 開發想法，使用了低消耗高速簡單的架構，易於學習。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AppML教程</font></font></a>
+	<a href="http://www.runoob.com/asp" title="ASP，即動態服務器頁面（Active Server Pages），是微軟公司提出的一項生成動態交互性網頁的技術。 ASP 是在IIS 中運行的程序，ASP 文件中的腳本可在服務器上執行。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ASP教程</font></font></a>
+	<a href="http://www.runoob.com/aspnet" title="ASP.NET 是微軟公司提出的一個使用HTML、CSS、JavaScript 和服務器腳本創建網頁和網站的開發框架。 ASP.NET 支持三種不同的開發模式：單頁面模式、MVC 模式、事件驅動模式。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ASP.NET教程</font></font></a>
+	<a href="http://www.runoob.com/bootstrap" title="Bootstrap 是Twitter 推出的一款開源的基於HTML、CSS、JAVASCRIPT 的前端開發框架，用於快速開發Web 應用程序和網站。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap教程</font></font></a>
+	<a href="http://www.runoob.com/bootstrap4" title="Bootstrap4 目前是Bootstrap 的最新版本，是一套用於HTML、CSS 和JS 開發的開源工具集。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap4教程</font></font></a>
+	<a href="http://www.runoob.com/cprogramming" title="C 語言是一種通用的、面向過程式的計算機程序設計語言，廣泛用於系統與應用軟件的開發。 具有高效、靈活、功能豐富、表達力強和較高的可移植性等特點，在程序員中備受青睞。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C教程</font></font></a>
+	<a href="http://www.runoob.com/csharp" title="C# 是微軟公司發布的一種面向對象的、專為公共語言基礎結構（CLI）而設計的、運行於.NET Framework 之上的高級程序設計語言。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C#教程</font></font></a>
+	<a href="http://www.runoob.com/cplusplus" title="C++ 進一步擴充和完善了C 語言，是一種面向對象的程序設計語言，可運行於多種平台上。 C++ 支持多種編程範式——面向對象編程、泛型編程和過程化編程。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++教程</font></font></a>
+	<a href="http://www.runoob.com/cssref" title="CSS 參考手冊提供了完整的CSS 屬性列表，每個屬性都配有語法說明及實例演示，另外還講解了CSS 選擇器、顏色值及瀏覽器支持等相關內容。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS參考手冊</font></font></a>
+	<a href="http://www.runoob.com/css" title="CSS，即級聯樣式表（Cascading Style Sheets），是一種用於表現HTML（標准通用標記語言的一個應用）或XML（標准通用標記語言的一個子集）等文件樣式和佈局的計算機語言。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS教程</font></font></a>
+	<a href="http://www.runoob.com/css3" title="CSS3 是最新的CSS 標準。 CSS，即級聯樣式表（Cascading Style Sheets），用於表現HTML 或XML 等文件的樣式和佈局。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS3教程</font></font></a>
+	<a href="http://www.runoob.com/django" title="Django是一個開放源代碼的Web應用框架，由Python寫成。 採用了MVC的軟件設計模式，即模型M，視圖V和控制器C。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Django教程</font></font></a>
+	<a href="http://www.runoob.com/docker" title="Docker 是一個開源的應用容器引擎，讓開發者可以打包他們的應用以及依賴包到一個可移植的容器中。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker教程</font></font></a>
+	<a href="http://www.runoob.com/dtd" title="DTD，即文檔類型定義，用於定義XML 文檔的合法構建模塊。 DTD 使用一系列合法的元素來定義文檔的結構，可被成行地聲明於XML 文檔中，也可作為一個外部引用。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DTD教程</font></font></a>
+	<a href="http://www.runoob.com/echarts" title="ECharts 是一個使用JavaScript 實現的開源可視化庫，涵蓋各行業圖表，滿足各種需求。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECharts教程</font></font></a>
+	<a href="http://www.runoob.com/eclipse" title="Eclipse 是一個開放源代碼的、基於Java 的可擴展開發平台。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse教程</font></font></a>
+	<a href="http://www.runoob.com/firebug" title="Firebug 是網頁瀏覽器Mozilla Firefox 下的一款開發類插件，集HTML 查看和編輯、Javascript 控制台、網絡狀況監視器於一體，是開發JavaScript、CSS、HTML 和Ajax 的得力助手。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug教程</font></font></a>
+	<a href="http://www.runoob.com/font-awesome" title="Font Awesome 是一套絕佳的圖標字體庫和CSS框架。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Font Awesome圖標</font></font></a>
+	<a href="http://www.runoob.com/foundation" title="Foundation 是一個易用、強大而且靈活的框架,用於構建基於任何設備上的Web 應用。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Foundation教程</font></font></a>
+	<a href="http://www.runoob.com/git" title="Git是一款免費、開源的分佈式版本控制系統，用於敏捷高效地處理任何或小或大的項目。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Git教程</font></font></a>
+	<a href="http://www.runoob.com/go" title="Go 是一個開源的編程語言，它能讓構造簡單、可靠且高效的軟件變得容易。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Go語言教程</font></font></a>
+	<a href="http://www.runoob.com/googleapi" title="Google 地圖API 是Google 為開發者提供的創建交互式地圖的應用程序編程接口。 Google 地圖API 是一項免費的服務，任何非盈利性網站均可使用。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google地圖API教程</font></font></a>
+	<a href="http://www.runoob.com/highcharts" title="Highcharts 是一個用純JavaScript編寫的一個圖表庫"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Highcharts教程</font></font></a>
+	<a href="http://www.runoob.com/htmldom" title="HTML DOM 定義了所有HTML 元素的對象和屬性，以及訪問它們的方法。 換言之，HTML DOM 是關於如何獲取、修改、添加或刪除HTML 元素的標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML DOM教程</font></font></a>
+	<a href="http://www.runoob.com/tags" title="HTML 參考手冊提供了完整的HTML 標籤、屬性、事件列表，並配有具體的實例演示，另外還講解了拾色器、字符集等相關內容。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML參考手冊</font></font></a>
+	<a href="http://www.runoob.com/charsets" title="要正確顯示HTML頁面，瀏覽器必須知道頁面使用的字符集（字符編碼）是什麼。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML字符集</font></font></a>
+	<a href="http://www.runoob.com/html" title="HTML，即超文本標記語言（Hyper Text Markup Language），是一種用於描述網頁的標記語言，通過標記符號來標記要顯示的網頁中的各個部分。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML教程</font></font></a>
+	<a href="http://www.runoob.com/http" title="超文本傳輸協議（HTTP，HyperText Transfer Protocol)是互聯網上應用最為廣泛的一種網絡協議。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTTP教程</font></font></a>
+	<a href="http://www.runoob.com/ionic" title="ionic 是一個強大的HTML5 應用程序開發框架(HTML5 Hybrid Mobile App Framework )。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ionic教程</font></font></a>
+	<a href="http://www.runoob.com/ios" title="IOS 是蘋果公司研發的一款手機操作系統。 IOS 具有簡單易用的界面、令人驚嘆的功能，以及超強的穩定性，是iPad、iPhone、iPod touch和Apple TV 的操作系統。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS教程</font></font></a>
+	<a href="http://www.runoob.com/java" title="Java 是一種跨平台的面向對象的高級程序設計語言，是由Sun Microsystems 公司推出的Java 程序設計語言和Java 平台（即JavaEE、JavaME、JavaSE）的總稱。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java教程</font></font></a>
+	<a href="http://www.runoob.com/jsref" title="JavaScript 參考手冊提供了完整的JavaScript 對象、瀏覽器對象、HTML DOM 對象手冊。 手冊包含了每個對象、屬性、方法的實例。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript參考手冊</font></font></a>
+	<a href="http://www.runoob.com/js" title="JS，即Javascript，是一種輕量級的編程語言，可插入HTML 頁面，由所有的現代瀏覽器執行。 JS 可用於HTML 和web，更可廣泛用於服務器、PC、筆記本電腦、平板電腦和智能手機等設備。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript教程</font></font></a>
+	<a href="http://www.runoob.com/jeasyui" title="jQuery EasyUI 是一個基於jQuery 的框架，集成了各種用戶界面插件。 jQuery EasyUI 框架提供了創建網頁所需的一切，幫助您輕鬆建立站點。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery EasyUI教程</font></font></a>
+	<a href="http://www.runoob.com/jquerymobile" title="jQuery Mobile 是用於創建移動Web 應用的前端開發框架。 jQuery Mobile 使用HTML5 &amp; CSS3 最小的腳本來佈局網頁，可以應用於智能手機與平板電腦。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery Mobile教程</font></font></a>
+	<a href="http://www.runoob.com/jqueryui" title="jQuery UI 是建立在jQuery JavaScript 庫上的一組用戶界面交互、特效、小部件及主題，可用於創建高度交互的Web 應用程序。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery UI教程</font></font></a>
+	<a href="http://www.runoob.com/jquery" title="jQuery 是目前最流行的一個輕量級的兼容多瀏覽器的JavaScript 框架。 jQuery 提供了大量的插件，極大地簡化了JavaScript 編程。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery教程</font></font></a>
+	<a href="http://www.runoob.com/json" title="JSON，即JavaScript Object Notation（JavaScript 對象表示法），是存儲和交換文本信息的語法。 JSON 類似XML，但比XML 更小、更快，更易解析。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON教程</font></font></a>
+	<a href="http://www.runoob.com/jsp" title="JSP，即Java Server Pages，是由Sun Microsystems 公司倡導和許多公司參與共同創建的一種使軟件開發者可以響應客戶端請求，而動態生成HTML、XML 或其他格式文檔的Web 網頁的技術標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSP教程</font></font></a>
+	<a href="http://www.runoob.com/kotlin" title="Kotlin 是一個基於JVM 的新的編程語言，由JetBrains 開發。 Kotlin可以編譯成Java字節碼，也可以編譯成JavaScript，方便在沒有JVM的設備上運行。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kotlin教程</font></font></a>
+	<a href="http://www.runoob.com/linux" title="Linux是一套免費使用和自由傳播的類Unix操作系統，是一個基於POSIX和UNIX的多用戶、多任務、支持多線程和多CPU的操作系統。 它能運行主要的UNIX工具軟件、應用程序和網絡協議。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux教程</font></font></a>
+	<a href="http://www.runoob.com/lua" title="Lua 是一種輕量小巧的腳本語言，用標準C語言編寫並以源代碼形式開放。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lua教程</font></font></a>
+	<a href="http://www.runoob.com/markdown" title="Markdown是一種輕量級標記語言，它允許人們“使用易讀易寫的純文本格式編寫文檔。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Markdown教程</font></font></a>
+	<a href="http://www.runoob.com/maven" title="Maven 是Apache 下的一個純Java 開發的開源項目。 基於項目對像模型（縮寫：POM）概念，Maven利用一個中央信息片斷能管理一個項目的構建、報告和文檔等步驟。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Maven教程</font></font></a>
+	<a href="http://www.runoob.com/memcached" title="Memcached是一個自由開源的，高性能，分佈式內存對象緩存系統。 它很普通，卻可以用來減輕數據庫負載，從而為動態web應用加速。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Memcached教程</font></font></a>
+	<a href="http://www.runoob.com/mongodb" title="MongoDB 是由C++ 語言編寫的開源數據庫系統，是一個基於分佈式文件存儲的數據庫，旨在為Web 應用提供可擴展的高性能數據存儲解決方案。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MongoDB教程</font></font></a>
+	<a href="http://www.runoob.com/mysql" title="MySQL 是一個開源的小型關係型數據庫管理系統。 在Web 應用方面，MySQL是最好的RDBMS（關係數據庫管理系統）應用軟件之一。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL教程</font></font></a>
+	<a href="http://www.runoob.com/nodejs" title="Node.js 是一個基於Chrome JavaScript 運行時建立的一個平台，是一個基於Google 的V8 引擎的事件驅動I/O 服務端JavaScript 環境。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js教程</font></font></a>
+	<a href="http://www.runoob.com/numpy" title="NumPy(Numerical Python) 是Python 語言的一個擴展程序庫，支持大量的維度數組與矩陣運算。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NumPy教程</font></font></a>
+	<a href="http://www.runoob.com/perl" title="Perl，一種功能豐富的計算機程序語言，運行在超過100種計算機平台上，適用廣泛，從大型機到便攜設備，從快速原型創建到大規模可擴展開發。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perl教程</font></font></a>
+	<a href="http://www.runoob.com/php" title="PHP，即PHP: Hypertext Preprocessor，是一種創建動態交互性站點的強有力的服務器端腳本語言。 PHP 是開源的，可免費下載使用。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP教程</font></font></a>
+	<a href="http://www.runoob.com/postgresql" title="PostgreSQL 是一個免費的對象-關係數據庫服務器(數據庫管理系統)。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL教程</font></font></a>
+	<a href="http://www.runoob.com/python3" title="Python的3.0版本，常被稱為Python 3000，或簡稱Py3k。 相對於Python的早期版本，這是一個較大的升級。 為了不帶入過多的累贅，Python 3.0在設計的時候沒有考慮向下兼容。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python 3教程</font></font></a>
+	<a href="http://www.runoob.com/python" title="Python 是一種解釋型、面向對象、動態數據類型的高級程序設計語言。 Python 支持從簡單的文字處理到WWW 瀏覽器再到遊戲等應用程序的開發。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python基礎教程</font></font></a>
+	<a href="http://www.runoob.com/rdf" title="RDF，即資源描述框架（Resource Description Framework），是用於描述網絡資源的W3C 標準，比如網頁的標題、作者、修改日期、內容以及版權信息。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RDF教程</font></font></a>
+	<a href="http://www.runoob.com/react" title="React 是一個用於構建用戶界面的JAVASCRIPT 庫。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React教程</font></font></a>
+	<a href="http://www.runoob.com/redis" title="Redis是一個開源的使用ANSI C語言編寫、支持網絡、可基於內存亦可持久化的日誌型、Key-Value數據庫，並提供多種語言的API。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redis教程</font></font></a>
+	<a href="http://www.runoob.com/rss" title="RSS，即真正簡易聯合（Really Simple Syndication），是一種使用XML 編寫的描述和同步網站內容的格式，定義了非常簡單的方法來共享和查看標題和內容。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RSS教程</font></font></a>
+	<a href="http://www.runoob.com/ruby" title="Ruby 是一種開源的面向對象程序設計的服務器端腳本語言，在20 世紀90 年代中期由日本的松本行弘設計並開發。 Ruby 可用於編寫通用網關接口（CGI）腳本，可用於開發Internet 和Intranet 應用。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby教程</font></font></a>
+	<a href="http://www.runoob.com/sass"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sass教程</font></font></a>
+	<a href="http://www.runoob.com/scala" title="Scala 是一門多範式（multi-paradigm）的編程語言，設計初衷是要集成面向對象編程和函數式編程的各種特性。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scala教程</font></font></a>
+	<a href="http://www.runoob.com/servlet" title="Servlet（Server Applet），全稱Java Servlet，是用Java 編寫的服務器端程序。 其主要功能在於交互式地瀏覽和修改數據，生成動態Web 內容。 Servlet 運行於支持Java 的應用服務器中，它最常見的用途是擴展Web 服務器。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Servlet教程</font></font></a>
+	<a href="http://www.runoob.com/soap" title="SOAP，即簡易對象訪問協議，是基於XML 的簡易協議，可使應用程序在HTTP 之上進行信息交換。 簡單地說，SOAP 是用於訪問網絡服務的協議。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SOAP教程</font></font></a>
+	<a href="http://www.runoob.com/sql" title="SQL，即結構化查詢語言（Structured Query Language），是一種ANSI 標準的計算機語言，用於訪問和處理數據庫。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SQL教程</font></font></a>
+	<a href="http://www.runoob.com/sqlite" title="SQLite 是一款輕型的關係型數據庫管理系統，實現了自給自足的、無服務器的、零配置的、事務性的SQL 數據庫引擎。 SQLite 是在世界上最廣泛部署的SQL 數據庫引擎。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SQLite教程</font></font></a>
+	<a href="http://www.runoob.com/svg" title="SVG，即可縮放矢量圖形（Scalable Vector Graphics），是一種使用XML 來描述二維圖形和繪圖程序的語言。 SVG 是W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SVG教程</font></font></a>
+	<a href="http://www.runoob.com/svn" title="SVN是Subversion的簡稱，是一個開放源代碼的版本控制系統，相較於RCS、CVS，它採用了分支管理系統，它的設計目標就是取代CVS。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SVN教程</font></font></a>
+	<a href="http://www.runoob.com/swift" title="Swift 是一種支持多編程範式和編譯式的編程語言,蘋果於2014年WWDC（蘋果開發者大會）發布，用於開發iOS，OS X 和watchOS應用程序。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Swift教程</font></font></a>
+	<a href="http://www.runoob.com/tcpip" title="TCP/IP 是因特網的通信協議，是對計算機必須遵守的規則的描述，只有遵守這些規則，計算機之間才能進行通信。 瀏覽器與服務器是使用TCP/IP 協議來鏈接因特網的。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCP/IP教程</font></font></a>
+	<a href="http://www.runoob.com/typescript" title="TypeScript 是JavaScript 的一個超集，支持ECMAScript 6 標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TypeScript教程</font></font></a>
+	<a href="http://www.runoob.com/vbscript" title="VBScript，即Visual Basic Sc​​ript，是微軟公司開發的一種解析型的服務端（也支持客戶端）腳本語言，可以看作是VB 語言的簡化版。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VBScript教程</font></font></a>
+	<a href="http://www.runoob.com/vue2" title="Vue.js（讀音/vjuː/, 類似於view） 是一套構建用戶界面的漸進式框架。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue.js教程</font></font></a>
+	<a href="http://www.runoob.com/w3c" title="W3C，即萬維網聯盟，創建於1994 年，是Web 技術領域最具權威和影響力的國際中立性技術標準機構。 W3C 讓每個人都能在互聯網上分享資源。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">W3C教程</font></font></a>
+	<a href="http://www.runoob.com/webservices" title="Web Service 是使用開放協議進行通信的可重複使用的應用程序組件。 通過使用Web services，您可以在不同的應用程序與平台之間來交換數據。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web Service教程</font></font></a>
+	<a href="http://www.runoob.com/wsdl" title="WSDL，即網絡服務描述語言（Web Services Description Language），是一門基於XML 的語言，用於描述Web Services 以及如何對它們進行訪問。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WSDL教程</font></font></a>
+	<a href="http://www.runoob.com/xlink" title="XLink 定義在XML 文檔中創建超級鏈接的標準方法。 XPointer 允許這些超級鏈接指向XML 文檔中的更多具體部分（片斷）。 XLink 和XPointer 是W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XLink教程</font></font></a>
+	<a href="http://www.runoob.com/dom" title="XML DOM 定義了所有XML 元素的對象和屬性，以及訪問它們的方法。 換言之，XML DOM 是用於獲取、更改、添加或刪除XML 元素的標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML DOM教程</font></font></a>
+	<a href="http://www.runoob.com/schema" title="XML Schema 是基於XML（可擴展標記語言），描述了XML 文檔的合法構建模塊，可替代DTD（文檔類型定義）。 XML Schema 是W3C 的推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML Schema教程</font></font></a>
+	<a href="http://www.runoob.com/xml" title="XML，即可擴展標記語言（eXtensible Markup Language），用來傳輸和存儲數據。 XML 是一個W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML教程</font></font></a>
+	<a href="http://www.runoob.com/xpath" title="XPath，即XML 路徑語言，是XSLT 中的主要元素，是一種在XML 文檔中查找信息的語言。 XPath 是一個W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XPath教程</font></font></a>
+	<a href="http://www.runoob.com/xquery" title="XQuery 是建立在XPath 表達式之上，用於XML 數據查詢的語言。 XQuery 對XML 的作用類似SQL 對數據庫的作用。 XQuery 是一個W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XQuery教程</font></font></a>
+	<a href="http://www.runoob.com/xslfo" title="XSL-FO，即可擴展樣式表語言格式化對象（Extensible Stylesheet Language Formatting Objects），是用於格式化XML 數據的語言。 XSL-FO 是一個W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XSLFO教程</font></font></a>
+	<a href="http://www.runoob.com/xsl" title="XSLT，即XSL 轉換，是一種用於將XML 文檔轉換為XHTML 文檔或其他XML 文檔的語言。 XSL 指擴展樣式表語言，是一種XML 文檔的樣式表語言。 XSLT 是一個W3C 推薦標準。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XSLT教程</font></font></a>
+	<a href="http://www.runoob.com/regexp" title="正則表達式，又稱正規表示法、常規表示法，使用單個字符串來描述、匹配一系列符合某個句法規則的字符串，通常被用來檢索、替換那些符合某個模式的文本。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正則表達式</font></font></a>
+	<a href="http://www.runoob.com/quiz" title="測驗"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">測驗</font></font></a>
+	<a href="http://www.runoob.com/browsers" title="瀏覽器是用於顯示網頁服務器或檔案系統內的文件，並讓用戶與這些文件互動的一種軟件。 目前主流瀏覽器包括Internet Explorer、Firefox、Chrome、Safari、Opera 等。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">瀏覽器</font></font></a>
+	<a href="http://www.runoob.com/quality" title="通過學習重要的Web 標準，根據Web 標準編寫頁面，有助於改善網站品質，創建高質量的Web 網站，讓網站更加簡易且可讀性更強。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">網站品質</font></font></a>
+	<a href="http://www.runoob.com/web" title="網站建設指南介紹了一個網站開發人員建設一個專業的網站必須掌握的知識，同時還講解了網站驗證、Web 語義化、搜索引擎優化等相關內容。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">網站建設指南</font></font></a>
+	<a href="http://www.runoob.com/hosting" title="Web 服務器可存放網站，只有將存放在服務器上的網站進行發布，用戶才能在客戶端上瀏覽網站。 網站主機服務通常包括了域名註冊、電子郵件等。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">網站服務器教程</font></font></a>
+	<a href="http://www.runoob.com/design-pattern" title="設計模式（Design pattern）是一套被反複使用的、多數人知曉的、經過分類編目的、代碼設計經驗的總結。 使用設計模式是為了重用代碼、讓代碼更容易被他人理解、保證代碼可靠性。"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">設計模式</font></font></a>
+			
+		</div> 
+		 	 </div>
+</div>
+	</div>
+</div>
+
+
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="runoob-block">
+    <div class="runoob cf">
+     <dl>
+      <dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       在線實例
+      </font></font></dt>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/html/html-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML實例</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/css/css-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS實例</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/js/js-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript實例</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/ajx/ajax-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax實例</font></font></a>
+      </dd>
+       <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/jquery/jquery-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery實例</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/xml/xml-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML實例</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/java/java-examples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java實例</font></font></a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      字符集&amp;工具
+      </font></font></dt>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/charsets/html-charsets.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML字符集設置</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/tags/html-ascii.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML ASCII字符集</font></font></a>
+      </dd>
+     <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/tags/ref-entities.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML ISO-8859-1</font></font></a>
+      </dd> 
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/tags/html-symbols.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML實體符號</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://www.runoob.com/tags/html-colorpicker.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML拾色器</font></font></a>
+      </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       · </font></font><a target="_blank" href="https://c.runoob.com/front-end/53"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON格式化工具</font></font></a>
+      </dd>
+     </dl>
+     <dl>
+      <dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       最新更新
+      </font></font></dt>
+                   <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/git/git-gitee.html" title="Git Gitee"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Git Gitee</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/php/func-string-mb_strlen.html" title="PHP mb_strlen() 函數"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP mb_strlen()...</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/w3cnote/cpp-return-array.html" title="C++ 怎樣讓函數返回數組"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++怎樣讓函數...</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/w3cnote/python-dynamic-var.html" title="Python 動態變量名定義與調用"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python動態變量...</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/json/json-vs-xml.html" title="JSON vs XML"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON vs XML</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/sql/sql-exists.html" title="SQL EXISTS 運算符"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SQL EXISTS運算符</font></font></a>
+      </dd>
+              <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a href="http://www.runoob.com/tags/tag-main.html" title="HTML main 標籤"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML main標籤</font></font></a>
+      </dd>
+             </dl>
+     <dl>
+      <dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       站點信息
+      </font></font></dt>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+        </font></font><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意見反饋</font></font></a>
+      </dd>
+        <!--
+      <dd>
+       &middot;
+      <a class="wxpopup" onclick="popFunction()">加入我们
+       <span class="popuptext" id="myPopup">
+       岗位：技术类型自媒体<br>
+工作地点：厦门<br>
+
+具体联系邮箱：<strong>429240967@qq.com</strong></span>
+      </a>
+      </dd> 
+      -->
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a target="_blank" href="https://www.runoob.com/disclaimer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免責聲明</font></font></a>
+       </dd>
+       <!--
+       <dd style="display: block;">
+       &middot;
+      <a href="javascript:void(0)" onclick="dashangToggle()" style="font-weight:bold;color:#f00;" title="打赏，支持一下">打赏一下</a>
+       </dd>
+     -->
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+        </font></font><a target="_blank" href="https://www.runoob.com/aboutus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">關於我們</font></font></a>
+       </dd>
+      <dd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+       ·
+       </font></font><a target="_blank" href="https://www.runoob.com/archives"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章歸檔</font></font></a>
+      </dd>
+    
+     </dl>
+    
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">關注微信</font></font></strong>
+        </div>
+      </div>
+      <div class="share">
+            <img width="128" height="128" src="./PyCharm 安裝教程（Windows）_files/qrcode.png">
+       </div>
+     </div>
+     
+    </div>
+   </div>
+   <div class="w-1000 copyright"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Copyright © 2013-2020     </font></font><strong><a href="https://www.runoob.com/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">菜鳥教程</font></font></a></strong>&nbsp;
+    <strong><a href="https://www.runoob.com/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">runoob.com</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> All Rights Reserved.備案號：</font></font><a target="_blank" rel="nofollow" href="http://www.beian.miit.gov.cn/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">閩ICP備15012807號-1</font></font></a>
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回頂部" style="display: none;"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode" href="javascript:void(0)" title="關注我們"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" style="" href="javascript:void(0)" title="標記/收藏"><i class="fa fa-star" aria-hidden="true"></i></a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微信關注</font></font></h4>
+      <div class="panel-body"><img alt="微信關注" width="128" height="128" src="./PyCharm 安裝教程（Windows）_files/qrcode.png"></div> 
+    </div>
+  </div>
+
+  <div class="hide_box"></div>
+    <div class="shang_box">
+      <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()" title="關閉"><img src="./PyCharm 安裝教程（Windows）_files/close.jpg" alt="取消"></a>
+       
+      <div class="shang_tit">
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感謝您的支持，我會繼續努力的!</font></font></p>
+      </div>
+      <div class="shang_payimg">
+        <img src="./PyCharm 安裝教程（Windows）_files/weipayimg.png" alt="掃碼支持" title="掃一掃">
+      </div>
+        <div class="pay_explain"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掃碼打賞，你說多少就多少</font></font></div>
+      <div class="shang_payselect">
+        <div class="pay_item  checked" data-id="weipay">
+          <span class="radiobox"></span>
+          <span class="pay_logo"><img src="./PyCharm 安裝教程（Windows）_files/wechat.jpg" alt="微信"></span>
+        </div>
+        <div class="pay_item" data-id="alipay">
+          <span class="radiobox"></span>
+          <span class="pay_logo"><img src="./PyCharm 安裝教程（Windows）_files/alipay.jpg" alt="支付寶"></span>
+        </div>
+        
+      </div>
+      <div class="shang_info">
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打開</font></font><span id="shang_pay_txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支付寶</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掃一掃，即可進行掃碼打賞哦</font></font></p>
+        <p><a href="https://c.runoob.com/codedemo/5348" target="_blank"><span style=" font-size: 14px;color: #000;font-weight: bold;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">點我查看本站打賞源碼！</font></font></span></a></p>
+      </div>
+    </div>
+  <div id="testClick"></div>
+ <div style="display:none;">
+ 
+ <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3eec0b7da6548cf07db3bc477ea905ee";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<script>
+window.jsui={
+    www: 'https://www.runoob.com',
+    uri: 'https://www.runoob.com/wp-content/themes/runoob'
+};
+</script>
+<style>
+ol,ul{list-style:none}.cd-switcher a{text-decoration:none;outline:0}.cd-switcher a:hover{text-decoration:underline}a:focus{outline:0;-moz-outline:0}.main_nav{width:300px;height:60px;margin:60px auto 10px auto}.main_nav li{float:left;width:60px;margin-right:10px;font-size:16px;padding:.6em 1em;border-radius:3em;background:#2f889a;text-align:center}.main_nav li a{color:#fff}.errtip{background-color:#fceaea;color:#db5353;padding:8px 15px;font-size:14px;border:1px solid #fc9797;border-radius:5px}.cd-user-modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(52,54,66,0.9);z-index:3;overflow-y:auto;cursor:pointer;visibility:hidden;opacity:0;-webkit-transition:opacity .3s 0,visibility 0 .3s;-moz-transition:opacity .3s 0,visibility 0 .3s;transition:opacity .3s 0,visibility 0 .3s}.cd-user-modal.is-visible{visibility:visible;opacity:1;-webkit-transition:opacity .3s 0,visibility 0 0;-moz-transition:opacity .3s 0,visibility 0 0;transition:opacity .3s 0,visibility 0 0}.cd-user-modal.is-visible .cd-user-modal-container{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0)}.cd-user-modal-container{position:relative;width:90%;max-width:500px;background:#FFF;margin:3em auto 4em;cursor:auto;border-radius:.25em;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);-ms-transform:translateY(-30px);-o-transform:translateY(-30px);transform:translateY(-30px);-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;transition-property:transform;-webkit-transition-duration:.3s;-moz-transition-duration:.3s;transition-duration:.3s}.cd-user-modal-container .cd-switcher:after{content:"";display:table;clear:both}.cd-user-modal-container .cd-switcher li{width:50%;float:left;text-align:center}.cd-user-modal-container .cd-switcher li:first-child a{border-radius:.25em 0 0 0}.cd-user-modal-container .cd-switcher li:last-child a{border-radius:0 .25em 0 0}.cd-user-modal-container .cd-switcher a{font-size:1.2em;font-weight:bold;display:block;width:100%;height:50px;line-height:50px;background:#e8f1e2;color:#96b880}.cd-user-modal-container .cd-switcher a.selected{background:#FFF;color:#505260}@media only screen and (min-width:600px){.cd-user-modal-container{margin:4em auto}.cd-user-modal-container .cd-switcher a{height:70px;line-height:70px}}.cd-form{padding:1.4em}.cd-form .fieldset{position:relative;margin:1.4em 0}.cd-form .fieldset:first-child{margin-top:0}.cd-form .fieldset:last-child{margin-bottom:0}.cd-form label{font-size:16px;font-size:.875rem}.cd-form label.image-replace{display:inline-block;position:absolute;left:15px;top:50%;bottom:auto;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);height:20px;width:20px;overflow:hidden;text-indent:100%;white-space:nowrap;color:transparent;text-shadow:none;background-repeat:no-repeat;background-position:50% 0}.cd-form label.cd-username{background-image:url("/wp-content/themes/runoob/assets/img/cd-icon-username.svg")}.cd-form label.cd-email{background-image:url("/wp-content/themes/runoob/assets/img/cd-icon-email.svg")}.cd-form label.cd-password{background-image:url("/wp-content/themes/runoob/assets/img/cd-icon-password.svg")}.cd-form input{margin:0;padding:0;border-radius:.25em}.cd-form input.full-width{width:80%}.cd-form input.full-width2{width:94%}.cd-form input.has-padding{padding:12px 20px 12px 50px}.cd-form input.has-border{border:1px solid #d2d8d8;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none}.cd-form input.has-border:focus{border-color:#98b880;box-shadow:0 0 5px rgba(52,54,66,0.1);outline:0}.cd-form input.has-error{border:1px solid #d76666}.cd-form input[type=password]{padding-right:65px}.cd-form input[type=submit]{padding:16px 0;cursor:pointer;background:#96b97d;color:#FFF;font-weight:bold;border:0;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;font-size:1.2em;font-weight:bold}.no-touch .cd-form input[type=submit]:hover,.no-touch .cd-form input[type=submit]:focus{background:#3599ae;outline:0}@media only screen and (min-width:600px){.cd-form{padding:2em}.cd-form .fieldset{margin:2em 0}.cd-form .fieldset:first-child{margin-top:0}.cd-form .fieldset:last-child{margin-bottom:0}.cd-form input.has-padding{padding:16px 20px 16px 50px}.cd-form input[type=submit]{padding:16px 0}}.cd-close-form{display:block;position:absolute;width:40px;height:40px;right:0;top:-40px;background:url("/wp-content/themes/runoob/assets/img/cd-icon-close.svg") no-repeat center center;text-indent:100%;white-space:nowrap;overflow:hidden}@media only screen and (min-width:1170px){}#cd-login,#cd-signup,#cd-reset-password{display:none}#cd-login.is-selected,#cd-signup.is-selected,#cd-reset-password.is-selected{display:block}
+</style>
+<div class="cd-user-modal"> 
+	<div class="cd-user-modal-container">
+		<ul class="cd-switcher">
+			<li><a href="javascript:;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用戶登錄</font></font></a></li>
+			<li><a href="javascript:;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">註冊新用戶</font></font></a></li>
+		</ul>
+
+		<div id="cd-login"> <!-- 登录表单 -->
+			<div class="cd-form">
+				<p class="fieldset">
+					<label class="image-replace cd-username" for="signin-username"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用戶名</font></font></label>
+					<input class="full-width has-padding has-border" id="signin-username" name="username" type="text" placeholder="输入用户名">
+				</p>
+
+				<p class="fieldset">
+					<label class="image-replace cd-password" for="signin-password"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密碼</font></font></label>
+					<input class="full-width has-padding has-border" id="signin-password" name="password" type="password" placeholder="输入密码">
+				</p>
+				
+				<p class="fieldset">
+					<input type="checkbox" id="remember-me" checked="">
+					<label for="remember-me">记住登录状态</label>
+          <a href="https://www.runoob.com/reset-password" style="float: right;padding-right: 20px;" target="_blank">忘记密码？</a>
+				</p>
+ 				<input type="hidden" name="action" value="signin">
+				<p class="fieldset">
+					<input class="full-width2" type="submit" value="登 录">
+				</p>
+        <div class="err-msg"></div>
+			</div>
+		</div>
+
+		<div id="cd-signup"> <!-- 注册表单 -->
+			<div class="cd-form">
+				<p class="fieldset">
+					<label class="image-replace cd-password" for="verifycode">邀请码</label>
+					<input class="full-width has-padding has-border" id="signup-verifycode" name="verifycode" type="text" placeholder="输入邀请码">
+				</p>
+				<p class="fieldset">
+					<label class="image-replace cd-username" for="signup-username">用户名</label>
+					<input class="full-width has-padding has-border" id="signup-username" name="name" type="text" placeholder="输入用户名">
+				</p>
+
+				<p class="fieldset">
+					<label class="image-replace cd-email" for="signup-email">邮箱</label>
+					<input class="full-width has-padding has-border" name="email" id="signup-email" type="email" placeholder="输入mail">
+				</p>
+
+				<p class="fieldset">
+					<label class="image-replace cd-password" for="signup-password">密码</label>
+					<input class="full-width has-padding has-border" id="signup-password" name="password" type="password" placeholder="输入密码">
+				</p>
+				<p class="fieldset">
+					<label class="image-replace cd-password" for="signup-password2">重复输入密码</label>
+					<input class="full-width has-padding has-border" id="signup-password2" name="password2" type="password" placeholder="重复输入密码">
+				</p>
+				
+				<!-- 
+				<p class="fieldset">
+					<input type="checkbox" id="accept-terms">
+					<label for="accept-terms">我已阅读并同意 <a href="javascript:;">用户协议</a></label>
+				</p>
+				 -->
+				 
+				 <input type="hidden" name="action" value="signup">
+				<p class="fieldset">
+					<input class="full-width2" type="submit" value="注册新用户">
+				</p>
+				<p class="fieldset">
+				  <a href="https://www.runoob.com/w3cnote/runoob-user-test-intro.html#invite" target="_blank">如何获取邀请码？</a>
+				  </p>
+				<div class="err-msg"></div>
+			</div>
+
+		</div>
+
+		<a href="javascript:;" class="cd-close-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">關閉</font></font></a>
+	</div>
+</div> 
+<script src="./PyCharm 安裝教程（Windows）_files/main.min.js.下載"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./PyCharm 安裝教程（Windows）_files/translate_24dp.png" width="20" height="20" alt="Google 翻譯"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">建議更好的譯法</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
